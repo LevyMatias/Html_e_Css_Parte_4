@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #331b1b;
+}
+
+header {
+    background-color: #e3c5ad;
+    border-radius: 0 0 255px 255px;
+}
+
+.container {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+.container .logo{
+    width: 75px;
+}
+
+header nav {
+    position: absolute;
+    bottom: 45%;
+    right: 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul a {
+    color: #331b1b;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .2s ease-in;
+}
+
+header nav ul a:hover {
+    color: #de7019;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+/* formulario*/
+form {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom:35px;
+}
+
+form label, input {
+    display: block;
+    font-size: 18px;
+    width: 30%;
+}
+
+textarea {
+    display: block;
+    margin: 55px auto;
+    font-size: 18px;
+    outline: none;
+}
+
+form label{
+    text-align: center;
+    color: #e3c5ad;
+    margin: 15px auto;
+}
+
+.box-form input {
+    padding: 5px 20px;
+    outline: none;
+    margin: 10px auto;
+}
+
+.contact, .box-select {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.box-select select {
+    padding: 5px 25px;
+}
+
+.contact label {
+    display: inline-block;
+}
+
+.contact .box-select, .question {
+    color: #e3c5ad;
+    margin-bottom: 30px;
+}
+
+/* table */
+table {
+    width: 50%;
+    margin: 0 auto;
+    color: #e3c5ad;
+}
+
+thead {
+    background: #de7019;
+    color: #e3c5ad;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #e3c5ad;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.box-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.forgot {
+    margin-left: 12px;
+    color: #e3c5ad;
+}
+/* end form*/
+
+.box-buttons .btn {
+    background-color: #e3c5ad;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #331b1b;
+    width: 220px;
+    padding: 10px 0;
+    transition: .3s ease-in;
+}
+
+.btn:hover {
+    background-color: #f5eae2;
+}
+
+/*footer*/
+
+footer {
+    width: 100%;
+    background-color: #e3c5ad;
+    padding: 20px 0;
+    margin-top: 55px;
+    text-align: center;
+}

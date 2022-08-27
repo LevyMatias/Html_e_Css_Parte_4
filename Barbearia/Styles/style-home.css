@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #331b1b;
+}
+
+header {
+    background-color: #e3c5ad;
+    border-radius: 0 0 255px 255px;
+	margin-bottom: 2em;
+}
+
+.container {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+.container .logo{
+    width: 75px;
+}
+
+header nav {
+    position: absolute;
+    bottom: 45%;
+    right: 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul a {
+    color: #331b1b;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: .2s ease-in;
+}
+
+header nav ul a:hover {
+    color: #de7019;
+}
+
+main {
+	border-radius: 8px;
+	background-color: #e3c5ad;
+	border: solid #e3c5ad 4px;
+	padding: 1em;
+}
+
+
+.banner {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.principal {
+	color: #331b1b;
+}
+
+.img-utensilios {
+	width: 150px;
+	float: left;
+	padding-top: 2em;
+	margin-right: 15px;
+}
+
+.titulo-principal {
+	padding-top: 2em;
+	text-align: center;
+	font-size: 2em;
+}
+
+.principal p {
+	width: 100%;
+	margin: 0 auto;
+	font-size: 18px;
+	padding-top: 2em;
+}
+
+.beneficios {
+	background-color: #e3c5ad;
+	color: #331b1b;
+}
+
+.beneficios ul {
+	display: inline-block;
+	position: absolute;
+	line-height: 3;
+	bottom: 8%;
+	right: 15%;
+}
+.itens {
+	font-style: italic;
+}
+
+.imgbeneficios {
+	width: 50%;
+	left: 10%;
+	margin-top: 2em;
+	border-radius: 8px;
+}
+
+footer {
+    width: 100%;
+    background-color: #e3c5ad;
+    padding: 20px 0;
+    text-align: center;
+	margin-top: 2em;
+}
