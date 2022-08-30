@@ -59,6 +59,12 @@ main {
 .banner {
 	width: 100%;
 	border-radius: 8px;
+	opacity: 0.9;
+	transition: 400ms;
+}
+
+.banner:hover {
+	opacity: 1;
 }
 
 .principal {
@@ -70,6 +76,13 @@ main {
 	float: left;
 	padding-top: 2em;
 	margin-right: 15px;
+	border-radius: 3%;
+	opacity: 0.9;
+	transition: 400ms;
+}
+
+.img-utensilios:hover {
+	opacity: 1;
 }
 
 .titulo-principal {
@@ -127,6 +140,12 @@ main {
 .imgbeneficios {
 	width: 50%;
 	border-radius: 8px;
+	opacity: 0.9;
+	transition: 400ms;
+}
+
+.imgbeneficios:hover {
+	opacity: 1;
 }
 
 .video {
