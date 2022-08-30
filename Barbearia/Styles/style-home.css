@@ -85,27 +85,43 @@ main {
 	padding-top: 2em;
 }
 
+.map {
+	padding: 2em 0;
+}
+
+.map p {
+	margin: 1em 0 2em;
+	text-align: center;
+}
+
 .beneficios {
 	background-color: #e3c5ad;
 	color: #331b1b;
 }
 
-.beneficios ul {
-	display: inline-block;
-	position: absolute;
-	line-height: 3;
-	bottom: 8%;
-	right: 15%;
+.box-beneficios {
+	display: flex;
+	align-items: center;
 }
+
+.box-beneficios ul {
+	margin-left: 15%;
+	line-height: 3;
+}
+
 .itens {
 	font-style: italic;
 }
 
 .imgbeneficios {
 	width: 50%;
-	left: 10%;
 	margin-top: 2em;
 	border-radius: 8px;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
 }
 
 footer {
