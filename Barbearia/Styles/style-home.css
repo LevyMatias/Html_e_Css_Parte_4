@@ -119,6 +119,17 @@ main {
 	margin-top: 2em;
 }
 
+.imgbeneficios {
+	width: 50%;
+	border-radius: 8px;
+	opacity: 0.9;
+	transition: 400ms;
+}
+
+.imgbeneficios:hover {
+	opacity: 1;
+}
+
 .box-beneficios ul {
 	margin-left: 15%;
 	line-height: 3;
@@ -137,17 +148,6 @@ main {
 	font-weight: bold;
 }
 
-.imgbeneficios {
-	width: 50%;
-	border-radius: 8px;
-	opacity: 0.9;
-	transition: 400ms;
-}
-
-.imgbeneficios:hover {
-	opacity: 1;
-}
-
 .video {
 	width: 560px;
 	margin: 2em auto 0;
@@ -159,4 +159,53 @@ footer {
     padding: 20px 0;
     text-align: center;
 	margin-top: 2em;
+}
+
+
+/* responsividade */
+
+@media screen and (max-width: 990px) {
+	.container {
+		width: auto;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	.beneficios .video {
+		width: 100%;
+	}
+	.box-beneficios {
+		flex-direction: column;
+	}
+	.box-beneficios .imgbeneficios {
+		width: 100%;
+	}
+	.box-beneficios ul {
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 570px) {
+	.container {
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	header {
+		border-radius: 0;
+		text-align: center;
+	}
+	header nav {
+		position: static;
+		width: 100%;
+	}
+	header nav li {
+		display: inline-block;
+	}
+	main {
+		padding: 0;
+	}
 }
