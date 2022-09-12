@@ -3,6 +3,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #331b1b;
+    height: 100vh;
 }
 
 header {
@@ -43,22 +44,25 @@ header nav ul a:hover {
     color: #de7019;
 }
 
+main {
+    width: 100%;
+    height: 100%;
+}
+
 /* container dos servicos */
 .servicos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 3rem;
-    height: 60vh;
+    height: 100%;
 }
 
 .servicos li{
     display: inline-block;
     position: relative;
+    top: 20%;
 
     text-align: center;
     margin-left: 22px;
     width: 30%;
-    height: 100%;
+    height: 60%;
     padding: 10px;
     vertical-align: top;
     box-sizing: border-box;
@@ -112,4 +116,44 @@ footer {
     background-color: #e3c5ad;
     padding: 20px 0;
     text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 990px) {
+    .container {
+        width: auto;
+    }
+    header {
+		border-radius: 0;
+		text-align: center;
+	}
+    header nav {
+        position: static;
+        width: 100%;
+    }
+    header nav li {
+        display: inline-block;
+    }
+    .servicos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .servicos li{
+        display: inline-block;
+        width: 80%;
+        margin: 25px 0;
+        top: 0;
+    }
+    .servicos li img {
+        margin: 0;
+    }
+    .servicos .descricao {
+        font-size: 0px;
+    }
 }
